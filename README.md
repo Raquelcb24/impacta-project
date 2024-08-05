@@ -22,6 +22,7 @@ Para **ejecutar el proyecto en el navegador**, utiliza el siguiente comando:
      npm run dev
 
 
+
 ## Descriptión del proyecto
 Este proyecto está realizado con React y Vite.
 Diseño responsive: Compatible con tamaños de pantalla desde 375px (móviles) hasta 2560px (pantallas grandes).
