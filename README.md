@@ -12,10 +12,12 @@ Para clonar el repositorio y configurar el proyecto, sigue estos pasos:
    git clone https://github.com/Raquelcb24/impacta-project.git
    
 2. **Instala las dependencias:**
+   
   ```bash
   npm install
 
-3. Para ejecutar el proyecto en el navegador, utiliza el siguiente comando:
+Para **ejecutar el proyecto en el navegador**, utiliza el siguiente comando:
+
     ```bash
   npm run dev
 
