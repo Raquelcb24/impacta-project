@@ -10,18 +10,19 @@ Para clonar el repositorio y configurar el proyecto, sigue estos pasos:
 
    ```bash
    git clone https://github.com/Raquelcb24/impacta-project.git
-   
-2. **Instala las dependencias:**
-   
-  ```bash
-  npm install
+
+2.  **Instala las dependencias:**
+
+    ```bash
+     npm install
 
 Para **ejecutar el proyecto en el navegador**, utiliza el siguiente comando:
 
     ```bash
-  npm run dev
+      npm run dev
+
 
 ## Descriptión del proyecto
-Realizado con React + Vite.
-Diseño responsive tanto en tamaños móviles desde 375px hasta pantallas de 2560px.
+Este proyecto está realizado con React y Vite.
+Diseño responsive: Compatible con tamaños de pantalla desde 375px (móviles) hasta 2560px (pantallas grandes).
 
