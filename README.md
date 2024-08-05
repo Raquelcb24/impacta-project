@@ -1,8 +1,25 @@
-# React + Vite
+# Impacta Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un proyecto realizado con **React** y **Vite**.
 
-Currently, two official plugins are available:
+## Clonación e Inicialización
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Para clonar el repositorio y configurar el proyecto, sigue estos pasos:
+
+1. **Clona el repositorio:**
+
+   ```bash
+   git clone https://github.com/Raquelcb24/impacta-project.git
+   
+2. **Instala las dependencias:**
+  ```bash
+  npm install
+
+3. Para ejecutar el proyecto en el navegador, utiliza el siguiente comando:
+    ```bash
+  npm run dev
+
+## Descriptión del proyecto
+Realizado con React + Vite.
+Diseño responsive tanto en tamaños móviles desde 375px hasta pantallas de 2560px.
+
