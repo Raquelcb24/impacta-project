@@ -18,8 +18,8 @@ Para clonar el repositorio y configurar el proyecto, sigue estos pasos:
 
 Para **ejecutar el proyecto en el navegador**, utiliza el siguiente comando:
 
-    ```bash
-      npm run dev
+   ```bash
+     npm run dev
 
 
 ## Descriptión del proyecto
