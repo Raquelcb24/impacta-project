@@ -1,4 +1,5 @@
-# Impacta Project  ![logo-impacta](https://github.com/user-attachments/assets/4172e5bd-8423-4d34-894f-685073423079)
+# Impacta Project <img src="https://github.com/user-attachments/assets/4172e5bd-8423-4d34-894f-685073423079" alt="logo-impacta" width="200" />
+
 
 
 Este es un proyecto realizado con **React** y **Vite**.
