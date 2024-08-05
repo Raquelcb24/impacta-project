@@ -1,4 +1,5 @@
-# Impacta Project
+# Impacta Project  ![logo-impacta](https://github.com/user-attachments/assets/4172e5bd-8423-4d34-894f-685073423079)
+
 
 Este es un proyecto realizado con **React** y **Vite**.
 
@@ -20,7 +21,7 @@ Para **ejecutar el proyecto en el navegador**, utiliza el siguiente comando:
 
    ```bash
      npm run dev
-```
+   ```
 
 
 
