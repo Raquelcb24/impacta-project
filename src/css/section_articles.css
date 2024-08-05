@@ -1,0 +1,124 @@
+.section{
+    font-family: var(--font);
+}
+.section__number{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    color: var(--red);
+    border-radius: 50%; 
+    width: 30px; 
+    height: 30px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    z-index: 1000;
+    transform: translateY(-130px);
+    @media (min-width: 1024px) {
+        transform: translateY(-110px);
+        
+     }
+}
+
+.article1{
+    background-image: url('../images/digital-brain-with-neon-lights-representing-fusion-neuroscience-advanced-technology.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    @media (min-width: 1024px) {
+        height: 200px;
+        
+     }
+}
+
+.article2{
+    background-image: url('../images/3d-rendering-dartboard-red-blurry-motion-capturing-dynamic-action-competitive-setting.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    @media (min-width: 1024px) {
+        height: 200px;
+        
+     }
+}
+
+.article3{
+    background-image: url('../images/isolated-beautiful-cyber-woman-against-abstract-background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    @media (min-width: 1024px) {
+        height: 200px;
+        
+     }
+}
+
+
+.article4{
+    background-image: url('../images/powerful-partnership-handshake-symbolizing-collaboration-trust-success-highlighted-with.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    @media (min-width: 1024px) {
+        height: 200px;
+        
+     }
+}
+
+
+.articles::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(256, 0, 26, 0.5); 
+    border-radius: 5px;
+    z-index: 1; 
+
+}
+
+.article1 > * {
+    position: relative;
+    z-index: 2;
+}
+.article2 > * {
+    position: relative;
+    z-index: 2;
+}
+.article3 > * {
+    position: relative;
+    z-index: 2;
+}
+.article4 > * {
+    position: relative;
+    z-index: 2;
+}
+.ico{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.title{
+    font-weight: 700;
+}

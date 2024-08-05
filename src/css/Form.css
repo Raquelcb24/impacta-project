@@ -1,0 +1,95 @@
+.form{
+    background-color: var(--red);
+    font-family: var(--font);
+}
+.form_input{
+    color: black
+}
+.form_input::placeholder {
+    color: var(--red);
+    padding-left: 0.2rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.form_label{
+    width: 200px; 
+    display: inline-block;
+
+}
+@media(min-width: 768px){
+    .form_label{
+        width: 250px; 
+    }
+}
+@media(min-width: 1024px){
+    .form_label{
+        width: 350px; 
+    }
+}
+@media(min-width: 1440px){
+    .form_label{
+        width: 400px; 
+    }
+}
+@media(min-width: 2560px){
+    .form_label{
+        width: 700px; 
+    }
+}
+
+.form_button{
+    width: 8rem;
+    background-color: yellow;
+    color: var(--red);
+    border-radius: 25px;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin: 1rem;
+}
+.form_button:hover{
+    background-color: white;
+}
+
+@media(min-width: 1024px){
+    .form_button{
+        width: 12rem; 
+    }
+}
+@media(min-width: 1440px){
+    .form_button{
+        width: 18rem; 
+        font-size: 1.5rem
+    }
+}
+.form__banner{
+        color: var(--red);
+        font-size: 0.7rem;
+}
+@media (min-width: 768px) {
+    .form_grid{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0.2rem 
+    }
+    .form_message{
+        grid-column: 1 / 2;
+    }
+    .form_radio{
+        grid-column: 2 / 5;
+    }
+ }
+ @media(min-width: 2560px){
+    .form_grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.2rem 
+    }
+    .form_message{
+        grid-column: 1 / 2;
+    }
+    .form_radio{
+        grid-column: 2 / 4;
+    }
+}
