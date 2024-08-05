@@ -20,7 +20,7 @@ Para **ejecutar el proyecto en el navegador**, utiliza el siguiente comando:
 
    ```bash
      npm run dev
-
+```
 
 
 
