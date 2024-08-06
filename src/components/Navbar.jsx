@@ -4,6 +4,8 @@ import logo from '../images/logo-impacta.png';
 import { Bars3Icon } from '@heroicons/react/24/outline';
 
 function Navbar() {
+
+    //varible de estado para gestionar el menu de hamburguesa
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => {

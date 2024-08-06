@@ -9,8 +9,9 @@ import img4 from '../images/edit-4.webp'
 function Header() {
     const [currentIndex, setCurrentIndex] = useState(0);
 
-    const images = [img1, img2, img3, img4];
+    const images = [img1, img2, img3, img4]; //array con las imagenes del carrusel. Hacer .map para recorrerlo
 
+    //gestion de botones hacia delante y hacia atrás teniendo en cuenta la poosicion de la img y modificando la variable de estado
     const handlePrev = () => {
       setCurrentIndex((prevIndex) => (prevIndex > 0 ? prevIndex - 1 : images.length - 1));
     };

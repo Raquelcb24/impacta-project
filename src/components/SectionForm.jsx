@@ -14,6 +14,7 @@ function SectionForm() {
     privacy: false
   });
 
+  //recoger los valorers del formulario
   const handleChange = (event) => {
     const { name, value, type, checked } = event.target;
     setFormData({
