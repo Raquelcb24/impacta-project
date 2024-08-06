@@ -41,19 +41,19 @@ La página está optimizada para diferentes dispositivos y resoluciones, asegura
 
 * Para instalar y ejecutar el proyecto localmente, sigue estos pasos:
 
-  1. Clona el repositorio: 
+1. Clona el repositorio: 
   ````
   git clone https://github.com/Raquelcb24/impacta-project
   ````
-  2. Abre la carpeta raíz del proyecto en tu editor de código:
+2. Abre la carpeta raíz del proyecto en tu editor de código:
     ````
   cd impacta-project
   ````
-  3. Instala las dependencias:
+3. Instala las dependencias:
   ````
   npm install
   ````
-  4. Inicia el servidor de desarrollo::
+4. Inicia el servidor de desarrollo en tu navegador:
   ````
   npm run dev
   ````
