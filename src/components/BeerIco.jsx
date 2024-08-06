@@ -3,7 +3,7 @@
 function BeerIco() {
   return (
    <>
-   <svg className='w-40'
+    <svg className='w-40'
     version="1.1"
     id="svg489"
     xmlSpace="preserve"
@@ -61,7 +61,7 @@ function BeerIco() {
         </g>
       </g>
     </g>
-  </svg>
+    </svg>
    </>
   )
 }

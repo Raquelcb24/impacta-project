@@ -36,8 +36,8 @@
 }
 @media (min-width: 1024px){
     .clients__list{
-        grid-template-columns: repeat(7, 1fr); 
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(5, 1fr); 
+        grid-template-rows: repeat(3, 1fr);
         gap: 1rem;
         margin: 2rem;
     }
@@ -56,7 +56,25 @@
 }
 @media (min-width: 768px){
     .clients{
-        padding: 1.5rem;
+        padding: 2rem;
+    }
+   .logo_client{
+    width: 80px;
+   }
+     
+ }
+ @media (min-width: 1024px){
+    .clients{
+        padding: 3rem;
+    }
+   .logo_client{
+    width: 80px;
+   }
+     
+ }
+ @media (min-width: 2160px){
+    .clients{
+        padding: 6rem;
     }
    
      

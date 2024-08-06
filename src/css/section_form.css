@@ -44,7 +44,7 @@
 .radio_container::before {
     content: '';
     position: absolute;
-    left: -50px; 
+    left: -40px; 
     top: 50%; 
     transform: translateY(-50%);
     width: 28px;
@@ -60,7 +60,7 @@
     font-size: 24px; 
     color: white; 
     position: absolute;
-    left: -48px; 
+    left: -38px; 
     top: 50%; 
     transform: translateY(-50%);  
 }

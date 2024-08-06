@@ -2,16 +2,20 @@
 
 function Section_clients() {
   return (
-    <section className="section_clients pt-20 pr-4 pl-4 pb-20 lg:pt-48" >
+    <section className="section_clients pt-20 pr-4 pl-4 pb-10 lg:pt-48" >
         <h3 className="text-white flex font-bold justify-center pb-6 text-sm md:text-lg md:pt-10 2xl:text-3xl">¿NUESTROS CLIENTES?</h3>
         <ul className="clients__list">
              {/* alcampo */}
-             <li className="clients">
-                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 187.69 45.66" width="70">
-                
-                <g id="Capa_1-2" data-name="Capa 1">
-                    <g>
-                    <path fill="#ffffff" stroke="#ffffff" d="M106.19,17.39c.26-.21.41-.32.56-.45,3.15-2.64,6.71-2.95,10.5-1.8,1.23.37,2.17,1.24,2.89,2.4.35-.27.64-.5.93-.74,2.36-1.96,5.12-2.46,8.08-2.2,1.55.14,2.99.59,4.16,1.68,1.45,1.36,2.02,3.13,2.1,5.01.14,3.22.11,6.44.14,9.67.02,2.19-.02,4.39.01,6.58,0,.63-.17.86-.83.85-2-.04-3.99-.01-5.99-.01-.9,0-.9,0-.9-.89,0-4.57,0-9.14,0-13.7,0-1.51-.78-2.65-2.07-2.93-.62-.13-1.29-.11-1.93-.02-.45.06-.88.31-1.31.51-.82.39-1.17.99-1.16,1.97.06,4.72.03,9.45.03,14.17,0,.89,0,.89-.9.89-1.97,0-3.95-.03-5.92.01-.68.01-.89-.18-.88-.87.03-4.41.02-8.82,0-13.23,0-.57-.06-1.17-.24-1.71-.51-1.53-2.08-2.21-3.87-1.75-.26.07-.51.17-.76.27-1.16.47-1.72,1.18-1.69,2.59.11,4.61.03,9.23.06,13.84,0,.69-.2.88-.88.87-2.04-.04-4.08-.03-6.12,0-.54,0-.75-.16-.75-.72.01-7.3.01-14.6,0-21.9,0-.57.21-.73.75-.72,1.64.03,3.27.02,4.91,0,.47,0,.69.13.75.62.06.53.2,1.04.34,1.72"/>
+            <li className="clients">
+                <svg 
+                className="logo_client" 
+                id="Capa_2" 
+                data-name="Capa 2" 
+                xmlns="http://www.w3.org/2000/svg" 
+                viewBox="0 0 187.69 45.66" 
+                width="50">
+                <g id="Capa_1-2" data-name="Capa 1"><g>
+                <path fill="#ffffff" stroke="#ffffff" d="M106.19,17.39c.26-.21.41-.32.56-.45,3.15-2.64,6.71-2.95,10.5-  1.8,1.23.37,2.17,1.24,2.89,2.4.35-.27.64-.5.93-.74,2.36-1.96,5.12-2.46,8.08-2.2,1.55.14,2.99.59,4.16,1.68,1.45,1.36,2.02,3.13,2.1,5.01.14,3.22.11,6.44.14,9.67.02,2.19-.02,4.39.01,6.58,0,.63-.17.86-.83.85-2-.04-3.99-.01-5.99-.01-.9,0-.9,0-.9-.89,0-4.57,0-9.14,0-13.7,0-1.51-.78-2.65-2.07-2.93-.62-.13-1.29-.11-1.93-.02-.45.06-.88.31-1.31.51-.82.39-1.17.99-1.16,1.97.06,4.72.03,9.45.03,14.17,0,.89,0,.89-.9.89-1.97,0-3.95-.03-5.92.01-.68.01-.89-.18-.88-.87.03-4.41.02-8.82,0-13.23,0-.57-.06-1.17-.24-1.71-.51-1.53-2.08-2.21-3.87-1.75-.26.07-.51.17-.76.27-1.16.47-1.72,1.18-1.69,2.59.11,4.61.03,9.23.06,13.84,0,.69-.2.88-.88.87-2.04-.04-4.08-.03-6.12,0-.54,0-.75-.16-.75-.72.01-7.3.01-14.6,0-21.9,0-.57.21-.73.75-.72,1.64.03,3.27.02,4.91,0,.47,0,.69.13.75.62.06.53.2,1.04.34,1.72"/>
                     <path fill="#ffffff" stroke="#ffffff" d="M146.47,27.2c0,1.54.01,3.09,0,4.63,0,.44.15.68.59.71.89.06,1.78.16,2.68.16,1.31.01,2.34-.6,2.83-1.8.39-.95.65-2,.78-3.02.21-1.7.1-3.4-.5-5.03-.37-1.01-1.01-1.85-2.12-2.06-1.36-.25-2.62.05-3.72.95-.37.3-.55.65-.54,1.15.03,1.43.01,2.86.01,4.29M145.44,17.39c1.32-1.55,2.91-2.33,4.73-2.64,2.49-.42,4.93-.35,7.17.97,2.01,1.19,3,3.11,3.5,5.28.76,3.29.84,6.6.03,9.9-1.04,4.23-4.17,7.08-8.48,7.75-1.79.28-3.57.36-5.35.04-.49-.09-.58.12-.58.54,0,1.88-.01,3.76.01,5.64,0,.57-.14.79-.75.78-2.09-.03-4.17-.03-6.26,0-.55,0-.74-.16-.74-.73.01-9.71.01-19.43,0-29.14,0-.55.17-.74.73-.73,1.64.03,3.27.02,4.91,0,.47,0,.76.08.79.64.03.51.16,1.01.28,1.69"/>
                     <path fill="#ffffff" stroke="#ffffff" d="M30.96,10.6c0,.1,0,.21,0,.32.27.18.55.52.81.51.25-.01.48-.39.71-.61-.24-.25-.46-.62-.74-.69-.21-.05-.51.31-.77.49M21.8,29.02c1.11,3.1,2.21,6.19,3.36,9.43-.75,0-1.37.03-1.98-.02-.16-.01-.36-.26-.43-.45-1.17-3.22-2.31-6.45-3.47-9.67-.19-.53.07-.72.5-.88,3.42-1.3,5.7-3.79,7.31-6.98.05-.1.08-.2.04-.35-.43.55-.85,1.11-1.29,1.65-2.52,3.06-5.8,4.87-9.72,5.15-3.84.27-7.71.14-11.56.18-.12,0-.25-.06-.48-.12.49-1.11,1.58-1.65,2.22-2.63-.49-.08-.93-.13-1.36-.22-2.12-.46-3.55-1.72-4.35-3.72-.28-.7-.18-.84.56-.84,3.19,0,6.37-.03,9.56.01,1.22.02,2.2-.38,3.12-1.16,3.7-3.11,7.44-6.19,11.16-9.28,1.7-1.41,3.61-2.24,5.86-2.11,1.89.11,3.45.84,4.66,2.33.15.19.47.34.71.36.76.05,1.52.01,2.29.02.23,0,.46.05.69.07.02.06.04.12.06.17-.17.13-.33.3-.52.4-.66.33-1.32.67-2.01.93-.51.19-.72.52-.81,1.03-.48,2.95-1.26,5.81-2.37,8.59-2,5.07-5.75,7.66-11.16,7.95-.14,0-.27.02-.4.04-.04,0-.08.04-.22.13"/>
                     <path fill="#ffffff" stroke="#ffffff" d="M88.52,26.19v-4.5s0-.04,0-.07c.05-.47-.15-.71-.63-.73-.74-.04-1.47-.14-2.21-.15-1.64-.02-2.66.62-3.13,2.19-.36,1.21-.58,2.48-.66,3.74-.1,1.54-.01,3.1.71,4.52.38.74.92,1.35,1.8,1.48,1.32.19,2.53-.11,3.59-.97.37-.3.56-.64.55-1.15-.03-1.45-.01-2.91-.01-4.36M89.59,36.25c-.83.58-1.54,1.27-2.39,1.66-2.98,1.35-6.03,1.44-9.04.06-1.61-.74-2.67-2.08-3.22-3.72-1.56-4.64-1.61-9.3.34-13.83,1.52-3.53,4.46-5.31,8.18-5.72,4.07-.45,8.09-.01,12.05,1.08.58.16.76.44.76,1.04-.02,6.9-.01,13.79-.01,20.69,0,.89,0,.89-.89.89-1.59,0-3.19-.01-4.78,0-.45,0-.71-.1-.75-.61-.04-.52-.16-1.04-.25-1.54"/>
@@ -22,13 +26,11 @@ function Section_clients() {
                     <path fill="#ffffff" stroke="#ffffff" d="M34.6,22.67c1.93,5.21,3.86,10.41,5.84,15.75-.43.04-.66.09-.89.09-2.58,0-5.16-.01-7.74.01-.53,0-.8-.16-.98-.68-.94-2.71-1.91-5.4-2.88-8.09-.13-.36-.15-.62.27-.81,2.72-1.25,4.66-3.28,5.95-5.96.05-.1.12-.18.19-.27.08-.01.15-.02.23-.04"/>
                     <path fill="#ffffff" stroke="#ffffff" d="M12.44,28.64c-.33,1.05-.63,2.03-.94,3-.67,2.11-1.34,4.22-2.04,6.32-.08.22-.41.51-.63.51-2.8.03-5.6.02-8.41.02-.13,0-.25-.06-.43-.1.04-.22.06-.42.12-.6,1-2.89,2.01-5.79,3-8.68.14-.41.36-.56.79-.56,2.62.01,5.25,0,7.87,0,.19,0,.38.05.67.09"/>
                     <path fill="#ffffff" stroke="#ffffff" d="M24.21,30.22c.51-.1,1.03-.25,1.55-.29.18-.02.49.17.55.33.96,2.62,1.88,5.26,2.81,7.89.02.06,0,.13-.03.31-.61,0-1.23.02-1.84-.01-.13,0-.31-.19-.36-.33-.91-2.54-1.81-5.09-2.71-7.64-.02-.06.01-.13.02-.25"/>
-                    </g>
-                </g>
-                </svg>
+                    </g></g></svg>
             </li>
               {/* basf */}
-              <li className="clients">
-                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 168.76 60.94" width="70" >
+            <li className="clients">
+                <svg className="logo_client" id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 168.76 60.94" width="50" >
                 <defs>
                     <style>
                     .cls-1 {
@@ -68,8 +70,8 @@ function Section_clients() {
                 </svg>
             </li>
               {/* ferrovial */}
-              <li className="clients">
-                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 187.69 40.95" width="70">
+            <li className="clients">
+                <svg className="logo_client" id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 187.69 40.95" width="50">
                 <defs>
                     <style>
                     .cls-1 {
@@ -95,8 +97,8 @@ function Section_clients() {
                 </svg>
             </li>
              {/* kpmg */}
-             <li className="clients ">
-                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 148.67 59.14" width="70">
+            <li className="clients ">
+                <svg className="logo_client" id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 148.67 59.14" width="50">
                 <defs>
                     <style>
                     .cls-1 {
@@ -112,7 +114,7 @@ function Section_clients() {
             </li>
             {/* corporate */}
             <li className="clients ">
-                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 229.37 76.78" width="70">
+                <svg className="logo_client" id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 229.37 76.78" width="50">
                 <defs>
                     <style>
                     .cls-1 {
@@ -177,8 +179,8 @@ function Section_clients() {
                 </svg>
             </li>
               {/* BMI */}
-              <li className="clients">
-                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 114.09 45.97" width="70">
+            <li className="clients">
+                <svg className="logo_client" id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 114.09 45.97" width="50">
                 <defs>
                     <style>
                     .cls-1 {
@@ -196,8 +198,8 @@ function Section_clients() {
                 </svg>
             </li>
               {/* brita */}
-              <li className="clients">
-                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 194.08 39.43" width="70">
+            <li className="clients">
+                <svg className="logo_client" id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 194.08 39.43" width="50">
                 <defs>
                     <style>
                     .cls-1 {
@@ -235,8 +237,8 @@ function Section_clients() {
                 </svg>
             </li>
               {/* cajamar */}
-              <li className="clients item2">
-                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 187.69 41.19" width="70">
+            <li className="clients item2">
+                <svg className="logo_client" id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 187.69 41.19" width="50">
                 <defs>
                     <style>
                     .cls-1 {
@@ -275,8 +277,8 @@ function Section_clients() {
                 </svg>
             </li>
            {/* cepsa */} 
-           <li className="clients item1">
-            <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 187.69 48.06" width="70">
+            <li className="clients item1">
+            <svg className="logo_client" id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 187.69 48.06" width="50">
                
                 <g id="Capa_1-2" data-name="Capa 1">
                     <g>
@@ -293,8 +295,8 @@ function Section_clients() {
                 </g></svg>
             </li>
               {/* schneider */}
-              <li className="clients">
-                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 187.69 55.27" width="70">
+            <li className="clients">
+                <svg className="logo_client" id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 187.69 55.27" width="50">
                 <defs>
                     <style>
                     .cls-1 {
@@ -331,7 +333,7 @@ function Section_clients() {
             </li>
             {/* hill + know */}
             <li className="clients">
-                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 151.73 94.7" width="70">
+                <svg className="logo_client" id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 151.73 94.7" width="50">
                 <defs>
                     <style>
                     .cls-1 {
@@ -375,7 +377,7 @@ function Section_clients() {
             </li>
             {/* broseta */}
             <li className="clients">
-                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 194.08 55.3" width="70">
+                <svg className="logo_client" id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 194.08 55.3" width="50">
                 <defs>
                     <style>
                     .cls-1 {
