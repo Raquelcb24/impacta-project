@@ -84,8 +84,8 @@ function SectionForm() {
         </p>
           </section>
 
-      <section className="form_radio mt-6 flex flex-col items-center  md:mr-6 text-sm md:text-lg 2xl:text-2xl ">
-        <h2 className="text-center w-full md:text-center 2xl:text-2xl">SELECCIONA SOLO <span className="font-bold">UN RESULTADO</span></h2>
+      <section className="form_radio mt-6 flex flex-col items-center  md:pr-2 text-sm md:text-lg 2xl:text-2xl ">
+        <h2 className="text-center w-full md:text-center -2 2xl:text-2xl">SELECCIONA SOLO <span className="font-bold">UN RESULTADO</span></h2>
         <div className="md:flex md:flex-col md:items-center">
           <div className="mt-4">
             <div className="radio_container">
