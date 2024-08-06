@@ -3,7 +3,7 @@
 
 <img src="https://github.com/user-attachments/assets/4172e5bd-8423-4d34-894f-685073423079" alt="logo-impacta" width="200" />
 
-Esta landing page es un proyecto realizado con **React** y **Vite** y **CSS** y **Tailwind CSS** para el diseño. El proyecto está diseñado para ser completamente responsive, adaptándose a diferentes tamaños de pantalla, desde móviles (a partir de 375 px) hasta pantallas grandes (2560px), pasando también por pantallas compatibles con tablet y portátiles (768pz, 1024px y 1440px).
+Esta landing page es un proyecto realizado con **React** y **Vite** y **CSS** y **Tailwind CSS** para el diseño. El proyecto está diseñado para ser completamente responsive, adaptándose a diferentes tamaños de pantalla, desde móviles hasta pantallas grandes.
 
 # Introducción
 Este proyecto consiste en una landing page para Impacta, que incluye:
