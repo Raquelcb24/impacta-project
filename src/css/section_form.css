@@ -1,0 +1,202 @@
+.form{
+    background-color: var(--red);
+    font-family: var(--font);
+}
+.form_input{
+    color: black
+}
+.form_input::placeholder {
+    color: var(--red);
+    padding-left: 0.6rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+@media(min-width: 2160px){
+    .form_input::placeholder{
+        font-size: 1rem;
+        padding-left: 2rem;
+    }
+}
+
+.form_radio {
+    display: none;
+}
+
+
+.radio_container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+
+.form_label {
+    cursor: pointer;
+    border: 1px solid white;
+    padding: 10px 10px 10px 50px;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    position: relative;
+    width: 15rem;
+    
+}
+
+.radio_container::before {
+    content: '';
+    position: absolute;
+    left: -50px; 
+    top: 50%; 
+    transform: translateY(-50%);
+    width: 28px;
+    height: 28px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: transparent;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.form_radio:checked + .form_label::after {
+    content: '\2713'; 
+    font-size: 24px; 
+    color: white; 
+    position: absolute;
+    left: -48px; 
+    top: 50%; 
+    transform: translateY(-50%);  
+}
+
+.form_radio:checked + .form_label {
+    background-color: white; 
+    color: var(--red);
+    border-color: var(--red);
+}
+
+.form_check {
+    display: none;
+}
+
+.check_container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.form_check_label {
+    cursor: pointer;
+    padding-left: 35px; 
+    position: relative;
+    line-height: 1.5;
+}
+
+.form_check_label::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px; 
+    height: 30px;
+    background-color: white; 
+    border-radius: 4px; 
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.form_check:checked + .form_check_label::before {
+    background-color: var(--red); 
+    border-color: var(--red); 
+}
+
+.form_check:checked + .form_check_label::after {
+    content: '\2713'; 
+    font-size: 30px; 
+    color: white;
+    position: absolute;
+    left: 4px; 
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media(min-width: 768px){
+    .form_label{
+        width: 250px; 
+    }
+}
+@media(min-width: 1024px){
+    .form_label{
+        width: 350px; 
+    }
+}
+@media(min-width: 1440px){
+    .form_label{
+        width: 400px; 
+    }
+}
+@media(min-width: 2160px){
+    .form_label{
+        width: 700px; 
+    }
+}
+
+.form_button{
+    width: 8rem;
+    background-color: yellow;
+    color: var(--red);
+    border-radius: 25px;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    
+}
+.form_button:hover{
+    background-color: white;
+}
+
+@media(min-width: 1024px){
+    .form_button{
+        width: 12rem; 
+    }
+}
+@media(min-width: 1440px){
+    .form_button{
+        width: 18rem; 
+        font-size: 1.5rem
+    }
+}
+@media(min-width: 2160px){
+    .form_button{
+        width: 24rem; 
+        font-size: 1.5rem;
+       
+    }
+}
+.form__banner{
+        color: var(--red);
+        font-size: 0.7rem;
+}
+@media (min-width: 768px) {
+    .form_grid{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0.2rem 
+    }
+    .form_message{
+        grid-column: 1 / 2;
+    }
+    .form_radio{
+        grid-column: 2 / 5;
+    }
+ }
+ @media(min-width: 2160px){
+    .form_grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.2rem;
+        
+    }
+    .form_message{
+        grid-column: 1 / 2;
+    }
+    .form_radio{
+        grid-column: 2 / 4;
+    }
+}

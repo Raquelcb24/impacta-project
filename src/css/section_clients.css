@@ -1,14 +1,21 @@
 .section_clients{
     background: linear-gradient(to bottom, white 0%, #e2001a 35%);
     font-family: var(--font);
-    @media (min-width: 768px){
+  
+}
+@media (min-width: 768px){
+    .section_clients{
         background: linear-gradient(to bottom, white 0%, #e2001a 15%);
-        
     }
-    @media (min-width: 1024px){
+   
+    
+}
+@media (min-width: 1024px){
+    .section_clients{
         background: linear-gradient(to bottom, white 0%, #e2001a 45%);
-        
     }
+ 
+    
 }
 .clients__list{
     display: grid;
@@ -16,18 +23,26 @@
     grid-template-rows: repeat(4, 1fr); 
     gap: 0.5rem;
     height: fit-content;
-    @media (min-width: 768px){
+   
+   
+}
+@media (min-width: 768px){
+    .clients__list{
         grid-template-columns: repeat(4, 1fr); 
         grid-template-rows: repeat(6, 1fr);
-        
     }
-    @media (min-width: 1024px){
+ 
+    
+}
+@media (min-width: 1024px){
+    .clients__list{
         grid-template-columns: repeat(7, 1fr); 
         grid-template-rows: repeat(2, 1fr);
         gap: 1rem;
         margin: 2rem;
-        
     }
+   
+    
 }
 .clients{
     display: flex;
@@ -35,31 +50,41 @@
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 0.2rem;
-    padding: 1rem;
     height: 100%; 
     box-sizing: border-box;
     color: white;
-    @media (min-width: 768px){
-       padding: 1.5rem;
-        
-    }
-    
 }
+@media (min-width: 768px){
+    .clients{
+        padding: 1.5rem;
+    }
+   
+     
+ }
 .item1{
     grid-column: span 2;
     grid-row: 3; 
-    @media (min-width: 1024px){
+   
+} 
+@media (min-width: 1024px){
+    .item1{
         grid-column: span 2;
         grid-row: 2;
-        
     }
-} 
+   
+    
+}
 .item2{
     grid-column: span 2;
-    grid-row: 4; 
-    @media (min-width: 1024px){
+    grid-row: 3;
+ 
+}
+
+@media (min-width: 1024px){
+    .item2{
         grid-column: span 2;
         grid-row: 2;
-        
     }
+  
+    
 }

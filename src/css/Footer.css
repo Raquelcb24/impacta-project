@@ -11,9 +11,12 @@
     .footer{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
     }
  }
+
 .title{
     color: var(--red);
     font-size: 1rem;
@@ -48,3 +51,26 @@
     background-color: white;
     color: var(--red);
 }
+.icon_footer{
+    font-size: 1.8rem;
+    color: white;
+}
+.icon_footer:hover{
+    transform: scale(1.2);
+}
+.logo{
+    background-color: var(--blue);
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1rem;
+    
+}
+
+@media(min-width: 2560px){
+    .list_items{
+        font-size: 1.2rem; 
+    }
+    .title{
+        font-size: 1.5rem; 
+    }
+ }

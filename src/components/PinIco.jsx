@@ -3,7 +3,7 @@
 function PinIco() {
   return (
     <>
-     <svg className='w-20'
+     <svg className=' w-40'
     version="1.1"
     id="svg1179"
     xmlSpace="preserve"

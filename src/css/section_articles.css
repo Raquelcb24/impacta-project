@@ -16,11 +16,22 @@
     font-weight: bold;
     z-index: 1000;
     transform: translateY(-130px);
-    @media (min-width: 1024px) {
-        transform: translateY(-110px);
-        
-     }
+    
 }
+@media (min-width: 1024px) {
+    .section__number {
+        transform: translateY(-110px);
+        width: 40px; 
+        height: 40px; 
+        font-size: 1.5rem;
+    }
+ }
+ @media (min-width: 2160px) {
+    .section__number {
+        transform: translateY(-170px);
+        
+    }
+ }
 
 .article1{
     background-image: url('../images/digital-brain-with-neon-lights-representing-fusion-neuroscience-advanced-technology.jpg');
@@ -28,14 +39,21 @@
     background-position: center;
     height: 150px;
     background-repeat: no-repeat;
-    border-radius: 5px;
+    border-radius: 10px;
     position: relative;
     overflow: hidden;
-    @media (min-width: 1024px) {
-        height: 200px;
-        
-     }
+   
 }
+@media (min-width: 1024px) {
+    .article1{
+        height: 200px;
+    }
+ }
+ @media (min-width: 1440px) {
+    .article1{
+        width: 25rem;
+    }
+ }
 
 .article2{
     background-image: url('../images/3d-rendering-dartboard-red-blurry-motion-capturing-dynamic-action-competitive-setting.jpg');
@@ -43,30 +61,43 @@
     background-position: center;
     height: 150px;
     background-repeat: no-repeat;
-    border-radius: 5px;
+    border-radius: 10px;
     position: relative;
     overflow: hidden;
-    @media (min-width: 1024px) {
-        height: 200px;
-        
-     }
+  
 }
-
+@media (min-width: 1024px) {
+    .article2{
+        height: 200px;
+    }
+ 
+ }
+ @media (min-width: 1440px) {
+    .article2{
+        width: 25rem;
+    }
+ }
 .article3{
     background-image: url('../images/isolated-beautiful-cyber-woman-against-abstract-background.jpg'); 
     background-size: cover;
     background-position: center;
     height: 150px;
     background-repeat: no-repeat;
-    border-radius: 5px;
+    border-radius: 10px;
     position: relative;
     overflow: hidden;
-    @media (min-width: 1024px) {
-        height: 200px;
-        
-     }
 }
-
+@media (min-width: 1024px) {
+    .article3{
+        height: 200px;
+    }
+ 
+ }
+ @media (min-width: 1440px) {
+    .article3{
+        width: 25rem;
+    }
+ }
 
 .article4{
     background-image: url('../images/powerful-partnership-handshake-symbolizing-collaboration-trust-success-highlighted-with.jpg'); 
@@ -74,16 +105,21 @@
     background-position: center;
     height: 150px;
     background-repeat: no-repeat;
-    border-radius: 5px;
+    border-radius: 10px;
     position: relative;
     overflow: hidden;
-    @media (min-width: 1024px) {
-        height: 200px;
-        
-     }
+
 }
-
-
+@media (min-width: 1024px) {
+    .article4{
+        height: 200px;
+    }
+ }
+ @media (min-width: 1440px) {
+    .article4{
+        width: 25rem;
+    }
+ }
 .articles::before{
     content: "";
     position: absolute;

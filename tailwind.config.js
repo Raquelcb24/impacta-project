@@ -2,7 +2,7 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     extend: {
@@ -11,7 +11,8 @@ export default {
         'md': '768px',
         'lg': '1024px',
         'xl': '1440px',
-        '2xl': '2560px'
+        '2xl': '2160px',
+        '3xl': '2560px'
       }
     },
   },

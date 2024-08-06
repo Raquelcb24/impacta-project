@@ -7,10 +7,13 @@ import SectionForm from "./SectionForm"
 function Main() {
   return (
     <>
+    <main className="bg-zinc-100">
       <Section_articles/>
       <Section_passion/>
       <Section_clients/>
       <SectionForm/>
+    </main>
+      
     </>
 
   )

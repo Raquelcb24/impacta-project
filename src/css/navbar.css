@@ -1,0 +1,67 @@
+
+.navBar {
+  color: var(--red);
+}
+
+.nav_list--items a {
+  text-decoration: none;
+  color: var(--red);
+}
+
+.nav_list--items a {
+  position: relative;
+  padding: 0.5rem;
+  text-decoration: none;
+  color: var(--red);
+  display: inline-block;
+}
+
+.nav_list--items a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--red);
+  transition: width 0.3s ease;
+}
+
+.nav_list--items a:hover::after {
+  width: 100%;
+}
+
+.md\\:hidden {
+  display: none;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+button svg {
+  width: 24px;
+  height: 24px;
+  stroke: var(--red);
+}
+
+@media all and (min-width: 768px) {
+  .nav_list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4;
+    position: relative;
+    width: auto;
+    background-color: transparent;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .nav_list {
+    gap: 16px;
+  }
+}

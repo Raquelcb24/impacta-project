@@ -3,7 +3,7 @@
 function SpermIco() {
   return (
     <>
-    <svg className='w-20'
+    <svg className='w-40'
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 512 512"
     width="512"

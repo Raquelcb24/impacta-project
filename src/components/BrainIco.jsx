@@ -3,7 +3,7 @@
 function BrainIco() {
   return (
     <>
-    <svg
+    <svg className='w-40'
     version="1.1"
     width="6rem"
     height="682.66669"

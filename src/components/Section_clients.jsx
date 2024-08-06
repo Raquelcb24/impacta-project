@@ -7,7 +7,7 @@ function Section_clients() {
         <ul className="clients__list">
              {/* alcampo */}
              <li className="clients">
-                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 187.69 45.66">
+                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 187.69 45.66" width="70">
                 
                 <g id="Capa_1-2" data-name="Capa 1">
                     <g>
@@ -28,7 +28,7 @@ function Section_clients() {
             </li>
               {/* basf */}
               <li className="clients">
-                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 168.76 60.94">
+                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 168.76 60.94" width="70" >
                 <defs>
                     <style>
                     .cls-1 {
@@ -69,7 +69,7 @@ function Section_clients() {
             </li>
               {/* ferrovial */}
               <li className="clients">
-                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 187.69 40.95">
+                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 187.69 40.95" width="70">
                 <defs>
                     <style>
                     .cls-1 {
@@ -96,7 +96,7 @@ function Section_clients() {
             </li>
              {/* kpmg */}
              <li className="clients ">
-                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 148.67 59.14">
+                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 148.67 59.14" width="70">
                 <defs>
                     <style>
                     .cls-1 {
@@ -112,7 +112,7 @@ function Section_clients() {
             </li>
             {/* corporate */}
             <li className="clients ">
-                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 229.37 76.78">
+                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 229.37 76.78" width="70">
                 <defs>
                     <style>
                     .cls-1 {
@@ -178,7 +178,7 @@ function Section_clients() {
             </li>
               {/* BMI */}
               <li className="clients">
-                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 114.09 45.97">
+                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 114.09 45.97" width="70">
                 <defs>
                     <style>
                     .cls-1 {
@@ -197,7 +197,7 @@ function Section_clients() {
             </li>
               {/* brita */}
               <li className="clients">
-                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 194.08 39.43">
+                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 194.08 39.43" width="70">
                 <defs>
                     <style>
                     .cls-1 {
@@ -236,7 +236,7 @@ function Section_clients() {
             </li>
               {/* cajamar */}
               <li className="clients item2">
-                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 187.69 41.19">
+                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 187.69 41.19" width="70">
                 <defs>
                     <style>
                     .cls-1 {
@@ -276,7 +276,7 @@ function Section_clients() {
             </li>
            {/* cepsa */} 
            <li className="clients item1">
-            <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 187.69 48.06">
+            <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 187.69 48.06" width="70">
                
                 <g id="Capa_1-2" data-name="Capa 1">
                     <g>
@@ -294,7 +294,7 @@ function Section_clients() {
             </li>
               {/* schneider */}
               <li className="clients">
-                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 187.69 55.27">
+                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 187.69 55.27" width="70">
                 <defs>
                     <style>
                     .cls-1 {
@@ -331,7 +331,7 @@ function Section_clients() {
             </li>
             {/* hill + know */}
             <li className="clients">
-                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 151.73 94.7">
+                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 151.73 94.7" width="70">
                 <defs>
                     <style>
                     .cls-1 {
@@ -375,7 +375,7 @@ function Section_clients() {
             </li>
             {/* broseta */}
             <li className="clients">
-                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 194.08 55.3">
+                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 194.08 55.3" width="70">
                 <defs>
                     <style>
                     .cls-1 {

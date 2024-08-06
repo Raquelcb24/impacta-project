@@ -5,7 +5,7 @@ function Footer() {
   return (
     <>
     <footer className="footer">
-      <div className='flex flex-col items-center space-y-2 justify-center leading-relaxed '>
+      <div className='flex flex-col items-center space-y-2 justify-center leading-relaxed 2xl:text-xl'>
         <h3 className="title">Contacto y Preguntas Frecuentes</h3>
         <ul>
           <li className="list_items ">+ (34) 666 666 666</li>
@@ -14,9 +14,9 @@ function Footer() {
           <li className="list_items ">LIBRO DE RECLAMACIONES</li>
           <li className="list_items ">CONOCE NUESTRA MANERA DE <span className="font-bold">TRABAJAR</span></li>
         </ul>
-        <h3 className="title ">Pago seguro</h3>
-        <ul className='flex flex-row items-center gap-2 justify-center leading-relaxed'>
-          <li className="list_items ">
+        <h3 className="text-white">Pago seguro</h3>
+        <ul className='flex flex-row items-center gap-4 justify-center leading-relaxed'>
+          <li >
             <svg xmlns="http://www.w3.org/2000/svg" width="48" height="32" fill="none">
             <path fill="#fff" d="M.5.5h47v31H.5z"/>
             <path fill="#FF5F00" d="M29.36 7.12H18.72v17.77h10.64V7.12Z"/>
@@ -25,21 +25,21 @@ function Footer() {
             <path stroke="#D6D6D6" d="M.5.5h47v31H.5z"/>
             </svg>
           </li>
-          <li className="list_items ">
+          <li >
             <svg xmlns="http://www.w3.org/2000/svg" width="48" height="32" fill="none">
             <path fill="#fff" d="M.5.5h47v31H.5z"/>
             <path fill="#1434CB" d="M28.25 10.35c-2.43 0-4.6 1.29-4.6 3.66 0 2.71 3.85 2.9 3.85 4.27 0 .57-.64 1.09-1.75 1.09-1.57 0-2.74-.72-2.74-.72l-.5 2.39s1.35.6 3.14.6c2.66 0 4.74-1.34 4.74-3.75 0-2.87-3.86-3.05-3.86-4.32 0-.45.53-.95 1.63-.95 1.24 0 2.26.53 2.26.53l.49-2.31s-1.1-.49-2.66-.49Zm-22.2.18-.07.35s1.02.19 1.94.57c1.19.43 1.27.69 1.47 1.47l2.18 8.55h2.9l4.5-10.94h-2.9l-2.9 7.44-1.17-6.3a1.28 1.28 0 0 0-1.32-1.14H6.04Zm14.09 0-2.28 10.94h2.77l2.27-10.94h-2.76Zm15.46 0c-.67 0-1.03.36-1.29 1l-4.06 9.94h2.91l.56-1.66h3.54l.35 1.66h2.56l-2.24-10.94H35.6Zm.37 2.95.87 4.1h-2.31l1.44-4.1Z"/>
             <path stroke="#D6D6D6" d="M.5.5h47v31H.5z"/>
             </svg>
           </li>
-          <li className="list_items ">
+          <li >
             <svg xmlns="http://www.w3.org/2000/svg" width="48" height="32" fill="none">
               <path fill="#006FCF" d="M.5.5h47v31H.5z"/>
               <path fill="#fff" d="m37.192 8.332.945-2.62h4.325V26.3h-4.077l-1.506-1.795-1.566 1.795H23.734v-9.565h-3.822l4.78-11.023h4.649l1.122 2.5v-2.5h5.772l.963 2.62h-.006Zm-3.261 1.735-.012-1.054.396 1.054 1.92 5.228h1.908l1.932-5.228.372-1.042V15.3h2.009V7.266h-3.338l-1.519 4.078-.401 1.102-.414-1.102-1.524-4.078h-3.338v8.03h2.009v-5.23Zm-4.325 5.228h2.316l-3.468-8.03h-2.688l-3.485 8.03h2.286l.609-1.548h3.822l.608 1.548Zm-2.912-5.313.396-1.005.395 1.005.816 2.03h-2.422l.815-2.03Zm-1.347 6.759v8h6.575v-1.736h-4.566v-1.397h4.478v-1.729h-4.478v-1.403h4.566V16.74h-6.575Zm13.895 8h2.611l-3.68-4.018 3.68-3.988h-2.57l-2.375 2.602-2.363-2.602h-2.617l3.675 4.018-3.675 3.987h2.54l2.393-2.608 2.38 2.608Zm.992-4.025 2.227 2.307v-4.59l-2.227 2.277v.006Z"/>
               <path stroke="#D6D6D6" d="M.5.5h47v31H.5z"/>
             </svg>
           </li>
-          <li className="list_items ">
+          <li >
             <svg xmlns="http://www.w3.org/2000/svg" width="48" height="32" fill="none">
             <path fill="#fff" d="M.5.5h47v31H.5z"/>
             <path fill="#253B80" d="m6.93 20.78.17-1.08-.37-.01H4.95L6.2 11.7a.1.1 0 0 1 .03-.06.1.1 0 0 1 .07-.02h3c.98 0 1.67.2 2.03.62.17.2.27.4.32.63.06.23.06.51 0 .86v.24l.17.1c.14.08.25.16.34.26.14.17.24.38.28.63a3.26 3.26 0 0 1-.4 1.95 2.12 2.12 0 0 1-1.38 1.02c-.29.07-.62.11-.98.11h-.23a.7.7 0 0 0-.7.6l-.01.1-.3 1.9v.08l-.03.04H6.93Z"/>
@@ -77,12 +77,13 @@ function Footer() {
           </ul>
           <h3 className="title">Redes</h3>
           <ul className='flex flex-row items-center space-x-2 justify-center leading-relaxed'>
-            <li className="list_items icon"><a href="https://www.instagram.com/impactabranding/" target='_blank'><FaInstagram/></a></li>
-            <li className="list_items icon"><a href="https://www.facebook.com/impactabranding" target='_blank'><FaFacebook/></a></li>
+            <li className=" icon_footer"><a href="https://www.instagram.com/impactabranding/" target='_blank'><FaInstagram/></a></li>
+            <li className=" icon_footer"><a href="https://www.facebook.com/impactabranding" target='_blank'><FaFacebook/></a></li>
           </ul>
       </div>
-        <a className='logo col-start-4 ' href="https://impactacomunicacion.com/" target='_blank'><img className='w-40 ' src={logo} alt="logo" /></a>
+        
     </footer>
+    <a className='logo ' href="https://impactacomunicacion.com/" target='_blank'><img className='w-40' src={logo} alt="logo" /></a>
     <p className='copy text-center h-6 xl:text-lg '>© IMPACTA. 2024 </p>
     </>
     

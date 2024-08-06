@@ -6,49 +6,21 @@
     background-color: var(--red);
     font-size: 0.7rem;
 }
-.header__nav{
-    color: var(--red);
-}
-.header_list a{
-    position: relative; 
-    padding: 0.5rem; 
-    text-decoration: none; 
-    color: var(--red); 
-    display: inline-block; 
-}
-.header_list a::after{
-    content: ''; 
-    position: absolute; 
-    left: 0; 
-    bottom: 0;
-    width: 0; 
-    height: 2px; 
-    background-color: red; 
-    transition: width 0.3s ease;
-}
-.header_list a:hover::after {
-    width: 100%;
-}
+
 .header__section{
     background-image: url(../images/edit-1.webp);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    background-position: center;
     width: 100%;
-    height: 100%;
+    height: 30vh;
     z-index: 1;
     overflow: hidden;
-    @media (min-width: 768px){
-        height: 40rem;
-        background-position: center;
-    }
-    @media (min-width: 1024px) {
-       background-position: center;
-       height: 100vh;
-    }
- 
-    
+
 }
+
+
 .header__gradient1{
     position: absolute;
     top: 0;
@@ -72,7 +44,23 @@
 .icon{
     display: inline-block;
     transition: transform 0.3s ease;
+    font-size: 1.4rem;
+    
 }
 .icon:hover{
     transform: scale(1.2);
+}
+@media (min-width: 768px){
+    .header__section{
+        height: 40rem;
+    }
+
+   
+}
+@media (min-width: 1024px) {
+    .header__section{
+        background-position: center;
+        height: 100vh;
+    }
+  
 }
