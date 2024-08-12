@@ -7,14 +7,14 @@ function SectionForm() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    telefono: '',
+    phone: '',
     planet: '',
     message: '',
     radio: '',
     privacy: false
   });
 
-  //recoger los valorers del formulario
+  //recoger los valores del formulario
   const handleChange = (event) => {
     const { name, value, type, checked } = event.target;
     setFormData({
@@ -26,7 +26,35 @@ function SectionForm() {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-   
+    console.log('Datos enviados:', formData);
+  
+    try {
+      const response = await fetch('http://localhost/impacta-project/index.php', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+  
+      const responseText = await response.text(); // depuración
+      console.log('Respuesta del servidor:', responseText); //  qué está devolviendo el servidor
+  
+      try {
+        const result = JSON.parse(responseText); // parsear como JSON
+        if (result.success) {
+          alert('Mensaje enviado con éxito');
+        } else {
+          alert('Error al enviar el mensaje: ' + result.message);
+        }
+      } catch (jsonError) {
+        console.error('Error al parsear JSON:', jsonError);
+        alert('Respuesta del servidor no es JSON válido.');
+      }
+    } catch (error) {
+      console.error('Error al enviar el formulario:', error);
+      alert(`Hubo un error al enviar el formulario: ${error.message}`);
+    }
   };
   
 
@@ -57,9 +85,9 @@ function SectionForm() {
         <div className="flex flex-col gap-2 md:flex-row w-full 2xl:h-12">
           <input className="form_input rounded-lg w-full md:w-1/2"
             type="tel"
-            id="telefono"
-            name="telefono"
-            value={formData.telefono}
+            id="phone"
+            name="phone"
+            value={formData.phone}
             onChange={handleChange}
             placeholder="Teléfono" />
           <input className="form_input rounded-lg w-full md:w-1/2"
