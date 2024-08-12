@@ -4,7 +4,7 @@
 <img src="https://github.com/user-attachments/assets/4172e5bd-8423-4d34-894f-685073423079" alt="logo-impacta" width="200" />
 
 Esta landing page es un proyecto Full Stack realizado con **React** y **Vite** y para el diseño **CSS** y **Tailwind CSS**.
-Para la parte correspondiente al back está realizada con PHP y MySQL.
+Para la parte correspondiente al back está realizada con **PHP** y **MySQL**.
 El proyecto está diseñado para ser completamente responsive, adaptándose a diferentes tamaños de pantalla, desde móviles (a partir de 375 px) hasta pantallas grandes (2560px), pasando también por pantallas compatibles con tablet y portátiles (768pz, 1024px y 1440px).
 
 # Introducción
