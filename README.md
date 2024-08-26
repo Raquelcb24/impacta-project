@@ -61,6 +61,11 @@ La página está optimizada para diferentes dispositivos y resoluciones, asegura
   npm run dev
   ````
 **Back-end**
+  1. Clona el repositorio: 
+  ````
+  https://github.com/Raquelcb24/impacta-back-php.git
+  ````
+
 
 Antes de empezar, asegúrate de tener instalado y configurado XAMPP en tu sistema.
  ### 1. Descargar e Instalar XAMPP
